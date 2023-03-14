@@ -1,0 +1,32 @@
+{
+  "name": "quantxz",
+  "displayName": "mid-nigth",
+  "description": "description",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "moon.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quantxz/dark-theme"
+  },
+  "keywords": [
+    "mid-nigth",
+    "midnigth",
+    "quantxz-theme",
+    "dark-purple"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mid-nigth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantxz-theme-color-theme.json"
+      }
+    ]
+  }
+}
