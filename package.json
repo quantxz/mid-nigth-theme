@@ -9,11 +9,12 @@
   "categories": [
     "Themes"
   ],
-  "icon": "moon.jpg",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/quantxz/dark-theme"
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
   },
+  "icon": "moon.jpg",
+  "repository": "https://github.com/quantxz/dark-theme",
   "keywords": [
     "mid-nigth",
     "midnigth",
@@ -27,6 +28,26 @@
         "uiTheme": "vs-dark",
         "path": "./themes/quantxz-theme-color-theme.json"
       }
-    ]
+    ],
+    "gallery": {
+      "theme": [
+        {
+          "label": "mid-nigth",
+          "thumbnail": "code.png",
+          "description": "Preview of the mid-nigth theme"
+        },
+        {
+          "label": "mid-nigth-label",
+          "thumbnail": "codeFront.png",
+          "description": "another Preview of the mid-nigth theme"
+        }
+      ]
+    }
+  },
+  "main": "index.js",
+  "author": "quantxz <indiedev.core@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
   }
 }
